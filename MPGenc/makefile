@@ -15,7 +15,7 @@ USERLIBS = -lm -lpthread
 # enable. QUIET suppresses all standard outputs, use -DQUIET to enable. For 
 # thread support, use the 2nd USERFLAGS and enter the desired number of threads.
 
-USE_THREADS = -DLTHREAD -DNUM_THREADS=2
+USE_THREADS = -DLTHREAD -DNUM_THREADS=2      # No of threads to execute the application. 
 USE_INT_DCT = -DINT_DCT -DORIGINAL_IDCT=0 -DMATRIX_IDCT=0 -DINTEL_FAST_DCT=1
 
 USERFLAGS = $(USE_THREADS) $(USE_INT_DCT) -DQUIET
@@ -33,13 +33,20 @@ LIBDIR = /usr/lib
 
 # Choose the appropriate compiler gcc or Intel icc
 
-CC = gcc
-LD = gcc       # Using GCC as the compiler for now
-OPTIMIZE = -O4 #-Wall
-
+#CC = gcc
+#LD = gcc       # Using GCC as the compiler for now
+#OPTIMIZE = -O4 #-Wall
+#-------------------------------------------------------
 #LD = /opt/intel_cc_80/bin/icc       # Using GCC as the compiler for now
 #CC = /opt/intel_cc_80/bin/icc
 #OPTIMIZE = $(USE_SSE2) $(USE_PENTIUM_4) -DUSE_ICC -g -O3 #-Wall
+
+#------------------------------------------------------
+# fixme : sajid
+CC = riscv64-unknown-linux-gnu-gcc
+LD = riscv64-unknown-linux-gnu-gcc       # Using riscv as the compiler for now; // 
+OPTIMIZE = -g -O4 #-Wall
+
 
 STATLINK = -dn # Option to force static linkage
 

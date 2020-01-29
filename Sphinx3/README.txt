@@ -17,6 +17,7 @@ directory hierarchy has also been changed. This version produces the livepretend
 binaries that takes in an audio sample and attempts to translate the speech 
 sample into text. 
 
+#---------------------- To Compile and run ------------------- 
 To compile, type 'make' at the main directory. The makefile includes comments
 that explain the different options in this release.
 
@@ -26,6 +27,28 @@ sample P I T T S B U R G H should be recognized. If a big endian machine is
 used to run the program, change the file name in model/lm/an4/an4.ctl to
 pittsburgh.bigendian.
 
+e.g. 
+	sajid2@sajid2-HP-Compaq-Elite-8300-SFF:~/benchmarks/ALPBench-RISCV-PORT/Sphinx3$ time ./scripts/sphinx3-test
+	sphinx3-test
+	Run CMU Sphinx-3 in Batch mode to decode an example utterance.
+	 
+	52800 samples in file ./model/lm/an4/pittsburgh.bigendian.raw.
+	Will be decoded in blocks of 2000
+	sajid2   17024 89.0  0.2 266856 35428 pts/0    S+   18:01   0:00 ./execs/livepretend ./model/lm/an4/an4.ctl ./model/lm/an4 ./model/lm/an4/args.an4
+
+	FWDVIT: R  (null)
+
+	real	0m0.578s
+	user	0m0.811s
+	sys	0m0.108s
+OR directly use this command if you dont want to use shell script
+     
+       ./execs/livepretend ./model/lm/an4/an4.ctl ./model/lm/an4 ./model/lm/an4/args.an4 2> an4.log
+
+For RISCV-gcc
+		it was building fine but when running gives a run-time error/exception sounds like 
+               "duplicate phoneid found" a condition check mentioned in the src/mdef.c file
+#-------------------------------------------------------------
 The modifications of Sphinx-3 are
 
 I. Parallelization of Gaussian scoring, lextree node evaluation, and

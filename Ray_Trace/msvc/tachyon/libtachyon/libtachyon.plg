@@ -1,0 +1,266 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libtachyon - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP156.tmp" with contents
+[
+/nologo /GB /MD /W3 /GX /Zi /O2 /Ob2 /I "..\..\src" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "THR" /Fo"Release/" /Fd"Release/" /FD /c 
+"S:\graphics\tachyon\src\api.c"
+"S:\graphics\tachyon\src\apigeom.c"
+"S:\graphics\tachyon\src\apitrigeom.c"
+"S:\graphics\tachyon\src\box.c"
+"S:\graphics\tachyon\src\camera.c"
+"S:\graphics\tachyon\src\coordsys.c"
+"S:\graphics\tachyon\src\cylinder.c"
+"S:\graphics\tachyon\src\extvol.c"
+"S:\graphics\tachyon\src\global.c"
+"S:\graphics\tachyon\src\grid.c"
+"S:\graphics\tachyon\src\imageio.c"
+"S:\graphics\tachyon\src\imap.c"
+"S:\graphics\tachyon\src\intersect.c"
+"S:\graphics\tachyon\src\jpeg.c"
+"S:\graphics\tachyon\src\light.c"
+"S:\graphics\tachyon\src\parallel.c"
+"S:\graphics\tachyon\src\plane.c"
+"S:\graphics\tachyon\src\ppm.c"
+"S:\graphics\tachyon\src\quadric.c"
+"S:\graphics\tachyon\src\render.c"
+"S:\graphics\tachyon\src\ring.c"
+"S:\graphics\tachyon\src\sgirgb.c"
+"S:\graphics\tachyon\src\shade.c"
+"S:\graphics\tachyon\src\sphere.c"
+"S:\graphics\tachyon\src\texture.c"
+"S:\graphics\tachyon\src\tgafile.c"
+"S:\graphics\tachyon\src\threads.c"
+"S:\graphics\tachyon\src\trace.c"
+"S:\graphics\tachyon\src\triangle.c"
+"S:\graphics\tachyon\src\ui.c"
+"S:\graphics\tachyon\src\util.c"
+"S:\graphics\tachyon\src\vector.c"
+"S:\graphics\tachyon\src\vol.c"
+"S:\graphics\tachyon\src\winbmp.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP156.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP157.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /Ob2 /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "THR" /Fp"Release/libtachyon.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"S:\graphics\tachyon\src\hash.c"
+"S:\graphics\tachyon\src\pngfile.c"
+"S:\graphics\tachyon\src\psd.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP157.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP158.tmp" with contents
+[
+/nologo /out:"Release\libtachyon.lib" 
+.\Release\api.obj
+.\Release\apigeom.obj
+.\Release\apitrigeom.obj
+.\Release\box.obj
+.\Release\camera.obj
+.\Release\coordsys.obj
+.\Release\cylinder.obj
+.\Release\extvol.obj
+.\Release\global.obj
+.\Release\grid.obj
+.\Release\hash.obj
+.\Release\imageio.obj
+.\Release\imap.obj
+.\Release\intersect.obj
+.\Release\jpeg.obj
+.\Release\light.obj
+.\Release\parallel.obj
+.\Release\plane.obj
+.\Release\pngfile.obj
+.\Release\ppm.obj
+.\Release\psd.obj
+.\Release\quadric.obj
+.\Release\render.obj
+.\Release\ring.obj
+.\Release\sgirgb.obj
+.\Release\shade.obj
+.\Release\sphere.obj
+.\Release\texture.obj
+.\Release\tgafile.obj
+.\Release\threads.obj
+.\Release\trace.obj
+.\Release\triangle.obj
+.\Release\ui.obj
+.\Release\util.obj
+.\Release\vector.obj
+.\Release\vol.obj
+.\Release\winbmp.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP158.tmp"
+<h3>Output Window</h3>
+Compiling...
+api.c
+S:\graphics\tachyon\src\api.c(73) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(74) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(75) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(456) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+S:\graphics\tachyon\src\api.c(630) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(631) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(632) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(633) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(694) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(695) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(742) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(743) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\api.c(744) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+apigeom.c
+apitrigeom.c
+box.c
+camera.c
+coordsys.c
+cylinder.c
+extvol.c
+S:\graphics\tachyon\src\extvol.c(98) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(101) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(102) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(199) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(200) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(201) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(240) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(241) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(242) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(248) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(249) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\extvol.c(250) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+global.c
+grid.c
+imageio.c
+S:\graphics\tachyon\src\imageio.c(135) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imageio.c(142) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imageio.c(146) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+imap.c
+S:\graphics\tachyon\src\imap.c(341) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(342) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(343) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(384) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(385) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(386) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(392) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(393) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(394) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(397) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(398) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(399) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(466) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(467) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(468) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(471) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(472) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(473) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(476) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(477) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(478) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(481) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(482) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(483) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(486) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(487) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(488) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(491) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(492) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(493) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(496) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(497) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(498) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(525) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(526) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\imap.c(527) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+intersect.c
+jpeg.c
+light.c
+parallel.c
+plane.c
+ppm.c
+quadric.c
+render.c
+Generating Code...
+Compiling...
+ring.c
+sgirgb.c
+shade.c
+S:\graphics\tachyon\src\shade.c(184) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(334) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(413) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(414) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(415) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(615) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(616) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(617) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(634) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(635) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(636) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(653) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(654) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\shade.c(655) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+sphere.c
+texture.c
+S:\graphics\tachyon\src\texture.c(87) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(89) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(91) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(249) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(250) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(251) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(274) : warning C4305: '=' : truncation from 'const double ' to 'float '
+S:\graphics\tachyon\src\texture.c(279) : warning C4305: '=' : truncation from 'const double ' to 'float '
+S:\graphics\tachyon\src\texture.c(306) : warning C4305: '=' : truncation from 'const double ' to 'float '
+S:\graphics\tachyon\src\texture.c(311) : warning C4305: '=' : truncation from 'const double ' to 'float '
+S:\graphics\tachyon\src\texture.c(339) : warning C4305: '=' : truncation from 'const double ' to 'float '
+S:\graphics\tachyon\src\texture.c(341) : warning C4305: '=' : truncation from 'const double ' to 'float '
+S:\graphics\tachyon\src\texture.c(456) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(457) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(458) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(476) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(477) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\texture.c(478) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+tgafile.c
+threads.c
+trace.c
+triangle.c
+S:\graphics\tachyon\src\triangle.c(371) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\triangle.c(372) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\triangle.c(373) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+ui.c
+util.c
+S:\graphics\tachyon\src\util.c(547) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\util.c(590) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\util.c(591) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\util.c(599) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\util.c(600) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\util.c(621) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+vector.c
+S:\graphics\tachyon\src\vector.c(71) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vector.c(72) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vector.c(73) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vector.c(83) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vector.c(84) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vector.c(85) : warning C4244: '*=' : conversion from 'double ' to 'float ', possible loss of data
+vol.c
+S:\graphics\tachyon\src\vol.c(117) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vol.c(124) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vol.c(130) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vol.c(241) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vol.c(242) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+S:\graphics\tachyon\src\vol.c(243) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+winbmp.c
+Generating Code...
+Compiling...
+hash.c
+pngfile.c
+psd.c
+Creating library...
+
+
+
+<h3>Results</h3>
+libtachyon.lib - 0 error(s), 117 warning(s)
+</pre>
+</body>
+</html>

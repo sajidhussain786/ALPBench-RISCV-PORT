@@ -21,7 +21,7 @@ USE_DBG =0
 # lexical tree evaluation, bit 2 is lexical tree propagation. 7 means enabling
 # threading in all 3 phases.
 USE_THRD = -DTHRD
-THREADS =1
+THREADS =1      # fixme sajid: No of threads 
 PHASES =7 
 
 # To enable SSE2, uncomment the following line
@@ -43,14 +43,20 @@ USE_PENTIUM_4 = -vec- -march=pentium4 -mcpu=pentium4
 #USE_GPROF = -p
 
 # Choose the appropriate compiler gcc or Intel icc
-
-CC = gcc
-LD = gcc       # Using GCC as the compiler for now
-OPTIMIZE = -g -O4 #-Wall
-
+#------------------------------------------------------
+#CC = gcc
+#LD = gcc       # Using GCC as the compiler for now
+#OPTIMIZE = -g -O4 #-Wall
+#------------------------------------------------------
 #CC =  /opt/intel_cc_80/bin/icc
 #LD = /opt/intel_cc_80/bin/icc       # Using GCC as the compiler for now
 #OPTIMIZE = $(USE_SSE2) $(USE_PENTIUM_4) -DUSE_ICC -g -O3 #-Wall
+#------------------------------------------------------
+# fixme : sajid
+CC = riscv64-unknown-linux-gnu-gcc
+LD = riscv64-unknown-linux-gnu-gcc       # Using riscv as the compiler for now; // 
+OPTIMIZE = -g -O4 #-Wall
+#------------------------------------------------------
 
 STATLINK = -dn # Option to force static linkage
 

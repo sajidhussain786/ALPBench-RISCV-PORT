@@ -1,0 +1,34 @@
+\indexentry{compiling on Unix systems}{5}
+\indexentry{running}{6}
+\indexentry{command line parameters}{6}
+\indexentry{running with MPI}{9}
+\indexentry{interactive ray tracing}{9}
+\indexentry{scene description files}{9}
+\indexentry{camera}{10}
+\indexentry{camera!projection}{10}
+\indexentry{camera!zoom}{11}
+\indexentry{camera!aspect ratio}{11}
+\indexentry{camera!antialiasing}{11}
+\indexentry{camera!maximum ray depth}{11}
+\indexentry{camera!orientation}{11}
+\indexentry{camera!viewing frustum}{12}
+\indexentry{include files}{13}
+\indexentry{scene file comments}{13}
+\indexentry{lighting}{13}
+\indexentry{lighting!point lights}{13}
+\indexentry{lighting!directional lights}{13}
+\indexentry{lighting!spotlights}{14}
+\indexentry{lighting!attenuation}{14}
+\indexentry{fog}{15}
+\indexentry{objects}{15}
+\indexentry{objects!spheres}{15}
+\indexentry{objects!triangles}{16}
+\indexentry{objects!smoothed triangles}{16}
+\indexentry{objects!planes}{16}
+\indexentry{objects!rings}{17}
+\indexentry{objects!infinite cylinders}{17}
+\indexentry{objects!finite cylinders}{18}
+\indexentry{objects!axis-aligned boxes}{18}
+\indexentry{objects!fractal landscapes}{18}
+\indexentry{objects!arbitrary quadrics}{19}
+\indexentry{objects!grids of scalar voxels}{19}

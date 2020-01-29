@@ -1,0 +1,96 @@
+At the beginning
+before calloc
+after calloc
+INFO: src/cmd_ln.c(327): Parsing command line:
+ \
+	-mdef ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/hub4opensrc.6000.mdef \
+	-fdict ./model/lm/an4/filler.dict \
+	-dict ./model/lm/an4/an4.dict \
+	-mean ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/means \
+	-var ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/variances \
+	-mixw ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/mixture_weights \
+	-tmat ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/transition_matrices \
+	-subvq ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/8gau.6000sen.quant \
+	-upperf 6855.49756 \
+	-lowerf 133.33334 \
+	-nfilt 40 \
+	-samprate 16000 \
+	-agc none \
+	-varnorm no \
+	-cmn current \
+	-subvqbeam 1e-02 \
+	-epl 4 \
+	-fillprob 0.02 \
+	-lw 9.5 \
+	-maxwpf 10 \
+	-beam 1e-60 \
+	-wbeam 1e-35 \
+	-lm ./model/lm/an4/an4.ug.lm.DMP 
+
+Configuration in effect:
+[NAME]		[DEFLT]		[VALUE]
+-agc		max		none
+-beam		1.0e-55		1.000000e-60
+-bghist		0		0
+-bptbldir			
+-cepdir				
+-cmn		current		current
+-ctl				
+-ctlcount	1000000000	1000000000
+-ctloffset	0		0
+-dict				./model/lm/an4/an4.dict
+-epl		3		4
+-fdict				./model/lm/an4/filler.dict
+-fillpen			
+-fillprob	0.1		2.000000e-02
+-hmmdump	0		0
+-hmmhistbinsize	5000		5000
+-hypseg				
+-latext		lat.gz		lat.gz
+-lextreedump	0		0
+-lm				./model/lm/an4/an4.ug.lm.DMP
+-lminmemory	0		0
+-log3table	1		1
+-logbase	1.0003		1.000300e+00
+-lowerf		200		1.333333e+02
+-lw		8.5		9.500000e+00
+-maxcepvecs	256		256
+-maxhistpf	100		100
+-maxhmmpf	20000		20000
+-maxhyplen	1000		1000
+-maxwpf		20		10
+-mdef				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/hub4opensrc.6000.mdef
+-mean				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/means
+-mixw				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/mixture_weights
+-mixwfloor	0.0000001	1.000000e-07
+-nfilt		31		40
+-Nlextree	3		3
+-outlatdir			
+-outlatoldfmt	1		1
+-pbeam		1.0e-50		1.000000e-50
+-ptranskip	0		0
+-samprate	8000		16000
+-silprob	0.1		1.000000e-01
+-subvq				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/8gau.6000sen.quant
+-subvqbeam	3.0e-3		1.000000e-02
+-tmat				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/transition_matrices
+-tmatfloor	0.0001		1.000000e-04
+-treeugprob	1		1
+-upperf		3500		6.855498e+03
+-utt				
+-uw		0.7		7.000000e-01
+-var				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/variances
+-varfloor	0.0001		1.000000e-04
+-varnorm	no		no
+-vqeval		3		3
+-wbeam		1.0e-35		1.000000e-35
+-wip		0.7		7.000000e-01
+
+INFO: src/kbcore.c(141): Initializing core models:
+INFO: src/logs3.c(150): Initializing logbase: 1.000300e+00 (add table: 1)
+INFO: src/logs3.c(212): Log-Add table size = 29350
+INFO: src/feat.c(694): Initializing feature stream to type: '1s_c_d_dd', CMN='current', VARNORM='no', AGC='none'
+INFO: src/mdef.c(645): Reading model definition: ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/hub4opensrc.6000.mdef
+INFO: src/mdef.c(730): reading base phones
+FATAL_ERROR: "src/mdef.c", line 478: Duplicate base phone: +BREATH+   -   - - filler    0      0      1      2 N
+

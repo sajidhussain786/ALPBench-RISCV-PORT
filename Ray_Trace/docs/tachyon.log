@@ -1,0 +1,141 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2006.1.19)  1 FEB 2007 12:55
+**tachyon
+(./tachyon.tex{/usr/local/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/usr/local/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/local/share/texmf/tex/latex/base/size11.clo
+File: size11.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/share/texmf/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `tachyon.idx'.
+
+
+Writing index file tachyon.idx
+(./macros.tex) (./tachyon.aux)
+\openout1 = `tachyon.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 21.
+ [1
+
+{/usr/local/share/texmf/dvips/config/pdftex.map}] (./tachyon.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `tachyon.toc'.
+
+ [2] [3] (./intro.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+
+(/usr/local/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+
+Overfull \hbox (0.80177pt too wide) in paragraph at lines 29--31
+[]/cmr10@10.95pt/Parallel ex-e-cu-tion us-ing POSIX or Unix-International threa
+ds li-braries. 
+ []
+
+
+Overfull \hbox (0.74211pt too wide) in paragraph at lines 35--37
+[]/cmr10@10.95pt/Perspective, or-tho-graphic, and depth-of-field cam-era pro-je
+c-tion modes,
+ []
+
+[4]) (./compiling.tex
+Overfull \hbox (2.16733pt too wide) in paragraph at lines 55--55
+[]/cmtt10@10.95pt/paragon-thr-mpi - Intel Paragon    (MPI + Threads + Thread I/
+O)[] 
+ []
+
+[5]
+Overfull \hbox (2.16733pt too wide) in paragraph at lines 55--55
+[]/cmtt10@10.95pt/-------------------------------------------------------------
+--[] 
+ []
+
+) (./running.tex [6] [7] [8]) (./scene.tex [9] (./camera.tex
+Overfull \hbox (26.04832pt too wide) in paragraph at lines 19--24
+/cmr10@10.95pt/cam-era pro-jec-tion mode iden-ti-fiers /cmbx10@10.95pt/PER-SPEC
+-TIVE/cmr10@10.95pt/, /cmbx10@10.95pt/PER-SPEC-TIVE[]DOF/cmr10@10.95pt/,
+ []
+
+[10] [11] [12]) (./lights.tex [13]) (./fog.tex [14]) (./objects.tex
+Overfull \hbox (30.91077pt too wide) in paragraph at lines 22--22
+[]        /cmtt10@10.95pt/Texture  Ambient 0.2  Diffuse 0.8  Specular 0.0  Opac
+ity 1.0[] 
+ []
+
+[15] [16] [17] [18]) (./texture.tex [19]
+Overfull \hbox (1.47163pt too wide) in paragraph at lines 31--38
+/cmr10@10.95pt/To de-fine a sim-ple tex-ture for use on sev-eral ob-jects in a 
+scene, the /cmbx10@10.95pt/TEXDEF
+ []
+
+[20]
+Overfull \hbox (58.2308pt too wide) in paragraph at lines 82--99
+ [] 
+ []
+
+[21])) [22] (./tachyon.ind) (./tachyon.aux) ) 
+Here is how much of TeX's memory you used:
+ 313 strings out of 95437
+ 3415 string characters out of 1189861
+ 50491 words of memory out of 1000001
+ 3339 multiletter control sequences out of 10000+50000
+ 9979 words of font info for 35 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 23i,7n,19p,138b,302s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 103 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 0 words of extra memory for PDF output out of 65536
+{/usr/local/share/texmf/dvips/tete
+x/f7b6d320.enc}</usr/local/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb>{/usr/lo
+cal/share/texmf/dvips/tetex/aae443f0.enc}</usr/local/share/texmf/fonts/type1/bl
+uesky/cm/cmmi8.pfb></usr/local/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb>{/
+usr/local/share/texmf/dvips/tetex/09fbbfac.enc}</usr/local/share/texmf/fonts/ty
+pe1/bluesky/cm/cmtt10.pfb>{/usr/local/share/texmf/dvips/tetex/bbad153f.enc}</us
+r/local/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/local/share/texmf/f
+onts/type1/bluesky/cm/cmbx12.pfb>{/usr/local/share/texmf/dvips/tetex/74afc74c.e
+nc}</usr/local/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/local/share/
+texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/local/share/texmf/fonts/type1/blue
+sky/cm/cmbx10.pfb></usr/local/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></us
+r/local/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb>
+Output written on tachyon.pdf (22 pages, 140607 bytes).

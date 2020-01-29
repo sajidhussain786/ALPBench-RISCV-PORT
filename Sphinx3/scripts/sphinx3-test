@@ -16,3 +16,6 @@ $S3BATCH ${CTLFILE} ${TASK} ${ARGS}  2> an4.log
 echo ""
 grep FWDVIT an4.log
 
+
+# to run without shell scrip execute the folowing comand; for RISCV qemu. 
+#  ./execs/livepretend ./model/lm/an4/an4.ctl ./model/lm/an4 ./model/lm/an4/args.an4 2> an4.log

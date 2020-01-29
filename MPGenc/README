@@ -186,6 +186,16 @@ only comparison which is allowed to fail is between test.m2v and
 new.m2v, caused by floating point accuracy dependencies in the forward
 DCT.
 
+#------------------- Fixme Sajid -----------------
+To run 
+cd verify/
+
+../execs/mpeg2enc test.par new.m2v                     # for gcc execuiton 
+    
+time qemu-riscv64 ../execs/mpeg2enc test.par new.m2v   # for RISCV execution
+#-------------------------------------------------
+
+
 
 6. Acknowledgements
 ===================

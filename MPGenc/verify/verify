@@ -1,8 +1,9 @@
 #!/bin/sh
-../src/mpeg2enc/mpeg2encode test.par new.m2v
+#../src/mpeg2enc/mpeg2encode test.par new.m2v
+../execs/mpeg2enc test.par new.m2v
 echo Verifying bitstream
 cmp test.m2v new.m2v
-../src/mpeg2dec/mpeg2decode -f -b new.m2v -o0 r%d
+../execs/MPGdec/mpeg2dec -f -b new.m2v -o0 r%d
 echo Comparing encoder and decoder output
 cmp q0.Y r0.Y
 cmp q1.Y r1.Y
@@ -14,7 +15,8 @@ cmp q0.V r0.V
 cmp q1.V r1.V
 cmp q2.V r2.V
 echo Verifying decoder
-../src/mpeg2dec/mpeg2decode -f -b test.m2v -o0 new%d
+#../src/mpeg2dec/mpeg2decode -f -b test.m2v -o0 new%d
+../../MPGdec/execs/mpeg2dec -f -b test.m2v -o0 new%d
 cmp recon0.Y new0.Y
 cmp recon1.Y new1.Y
 cmp recon2.Y new2.Y
