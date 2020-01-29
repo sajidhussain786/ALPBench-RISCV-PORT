@@ -15,3 +15,6 @@ LD = riscv64-unknown-linux-gnu-gcc
 USE_THREADS = -DTHRD -DNUM_THREADS=16  
 
 3-->     read the Readme file in each directory and follow the instructions to run the relevant benchmark 
+
+4-->  For MPGenc, MPGdec, Spnix3 comment or uncomment the relevant CC & LD to choose from gcc or RISCV-gcc
+      FOr Ray_Trace chose linux-64-thr-RISCV architecture when building
