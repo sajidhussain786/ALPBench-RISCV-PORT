@@ -44,7 +44,7 @@ USERLIBS = -lm -lpthread
 # For Thread support, use the 2nd USERFLAGS and enter the desired number of threads
 
 USE_INT_IDCT = -DINT_IDCT -DMATRIX_IDCT=0 -DORIGINAL_IDCT=0
-USE_THREADS = -DTHRD -DNUM_THREADS=16                         # No of threads
+USE_THREADS = -DTHRD -DNUM_THREADS=2
 USE_SSE2 = -use_msasm -DSSE2
 
 USERFLAGS = $(USE_INT_IDCT) $(USE_THREADS) 
@@ -56,20 +56,14 @@ USE_PENTIUM_4 = -vec- -march=pentium4 -mcpu=pentium4
 #LIBRARYDIR = -L/opt/intel_cc_80/lib
 
 # Choose the appropriate compiler gcc or Intel icc
-#----------------------------------------------------- original gccc
-#CC = gcc
-#LD = gcc       # Using GCC as the compiler for now; // riscv64-unknown-linux-gnu-gcc
-#OPTIMIZE = -g -O4 #-Wall
-#-------------------------------------------------
+
+CC = gcc
+LD = gcc       # Using GCC as the compiler for now
+OPTIMIZE = -g -O4 #-Wall
+
 #LD = /opt/intel_cc_80/bin/icc
 #CC = /opt/intel_cc_80/bin/icc
 #OPTIMIZE = $(USE_PENTIUM_4) $(USE_SSE2) -DUSE_ICC -g -O3 #-Wall
-#-------------------------------------------------
-# fixme : sajid
-CC = riscv64-unknown-linux-gnu-gcc
-LD = riscv64-unknown-linux-gnu-gcc       # Using riscv as the compiler for now; // 
-OPTIMIZE = -g -O4 #-Wall
-
 
 STATLINK = -dn # Option to force static linkage
 
