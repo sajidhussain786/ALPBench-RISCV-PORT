@@ -1,0 +1,1149 @@
+
+agc.c,23
+void agc_max 110,4638
+
+agc.h,28
+#define _S3_AGC_H_105,4600
+
+ascr.c,28
+ascr_t *ascr_init 107,4560
+
+ascr.h,55
+#define _S3_ASCR_H_105,4560
+} ascr_t;ascr_t118,4825
+
+barrier.c,107
+barrier_t * thread_barrier_init(55,2441
+void thread_barrier_destroy(69,2788
+void thread_barrier(75,2942
+
+barrier.h,85
+typedef struct barrier_struct barrier_struct54,2420
+} barrier_t;barrier_t62,2969
+
+beam.c,28
+beam_t *beam_init 108,4584
+
+beam.h,55
+#define _S3_BEAM_H_105,4565
+} beam_t;beam_t120,5058
+
+bio.c,385
+#define BIO_HDRARG_MAX	110,4707
+#define END_COMMENT	111,4733
+static void bcomment_read 114,4773
+static int32 swap_check(126,5000
+void bio_hdrarg_free 152,5481
+int32 bio_writehdr_version 165,5693
+int32 bio_readhdr 182,6003
+static uint32 chksum_accum 240,7684
+static void swap_buf 272,8299
+int32 bio_fread 298,8745
+int32 bio_fread_1d 313,9049
+void bio_verify_chksum 335,9680
+
+bio.h,187
+#define _S3_BIO_H_105,4569
+#define BYTE_ORDER_MAGIC	111,4613
+#define SWAP_INT16(SWAP_INT16114,4716
+#define SWAP_INT32(SWAP_INT32117,4856
+#define SWAP_FLOAT32(SWAP_FLOAT32123,5079
+
+bitvec.c,33
+int32 bitvec_count_set 107,4544
+
+bitvec.h,452
+#define _LIBUTIL_BITVEC_H_111,4752
+typedef uint32 *bitvec_t;bitvec_t118,4829
+#define bitvec_uint32size(bitvec_uint32size125,5024
+#define bitvec_alloc(bitvec_alloc127,5068
+#define bitvec_free(bitvec_free129,5148
+#define bitvec_set(bitvec_set131,5195
+#define bitvec_clear(bitvec_clear133,5258
+#define bitvec_clear_all(bitvec_clear_all135,5323
+#define bitvec_is_set(bitvec_is_set137,5397
+#define bitvec_is_clear(bitvec_is_clear139,5461
+
+blah,1745
+subvq.c:    vq->vqdist 1,0
+subvq.c:    int32 *vqdist;2,89
+subvq.c:    vqdist 3,116
+subvq.c:	    v 5,254
+subvq.c:	    v 6,370
+subvq.c:	      v 8,540
+subvq.c:	    v 11,685
+subvq.c:	v 13,756
+subvq.c:    vector_gautbl_eval_logs3(&(vq->gautbl[14,787
+subvq.c:    vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize,14,787
+subvq.c:    vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize, vq->subvec,14,787
+subvq.c:    vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize, vq->subvec, vq->vqdist[14,787
+subvq.c:	vector_gautbl_eval_logs3(&(vq->gautbl[15,885
+subvq.c:	vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize,15,885
+subvq.c:	vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize, vq->subvec,15,885
+subvq.c:	vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize, vq->subvec, vq->vqdist[15,885
+subvq.c~:    vq->vqdist 18,1057
+subvq.c~:    int32 *vqdist;19,1147
+subvq.c~:    vqdist 20,1175
+subvq.c~:	    v 22,1315
+subvq.c~:	    v 23,1432
+subvq.c~:	      v 25,1604
+subvq.c~:	    v 28,1752
+subvq.c~:	v 30,1825
+subvq.c~:    vector_gautbl_eval_logs3(&(vq->gautbl[31,1857
+subvq.c~:    vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize,31,1857
+subvq.c~:    vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize, vq->subvec,31,1857
+subvq.c~:    vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize, vq->subvec, vq->vqdist[31,1857
+subvq.c~:	vector_gautbl_eval_logs3(&(vq->gautbl[32,1956
+subvq.c~:	vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize,32,1956
+subvq.c~:	vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize, vq->subvec,32,1956
+subvq.c~:	vector_gautbl_eval_logs3(&(vq->gautbl[s]), 0, vq->vqsize, vq->subvec, vq->vqdist[32,1956
+subvq.h:    int32 **vqdist;35,2131
+
+case.c,72
+void lcase(110,4705
+void ucase(117,4787
+int32 strcmp_nocase 124,4869
+
+case.h,114
+#define _LIBUTIL_CASE_H_108,4697
+#define UPPER_CASE(UPPER_CASE115,4784
+#define LOWER_CASE(LOWER_CASE118,4888
+
+ckd_alloc.c,505
+void *__ckd_calloc__(140,5358
+void *__ckd_malloc__(154,5654
+void *__ckd_realloc__(166,5891
+char *__ckd_salloc__ 180,6170
+void **__ckd_calloc_2d__ 192,6425
+void **__ckd_calloc_2d__a 207,6864
+void ckd_free_2da 226,7382
+void ckd_free_2d 236,7505
+void ***__ckd_calloc_3d__ 243,7578
+void ckd_free_3d 268,8274
+typedef struct mylist_s mylist_s281,8576
+} mylist_t;mylist_t287,8909
+static mylist_t *head 288,8921
+#define MIN_MYALLOC	290,8952
+char *__mymalloc__ 293,9022
+void __myfree__ 363,10972
+
+ckd_alloc.h,445
+#define _LIBUTIL_CKD_ALLOC_H_130,5235
+#define ckd_calloc(ckd_calloc194,7333
+#define ckd_malloc(ckd_malloc195,7401
+#define ckd_realloc(ckd_realloc196,7464
+#define ckd_salloc(ckd_salloc197,7536
+#define ckd_calloc_2d(ckd_calloc_2d198,7599
+#define ckd_calloc_3d(ckd_calloc_3d199,7683
+#define ckd_calloc_2da(ckd_calloc_2da200,7775
+#define ckd_free(ckd_free202,7862
+#define mymalloc(mymalloc226,8784
+#define myfree(myfree227,8843
+
+cmd_ln.c,509
+typedef struct argval_s argval_s124,5169
+} argval_t;argval_t127,5294
+static argval_t *argval 128,5306
+static hash_table_t *ht;129,5338
+static const char *arg_type2str 133,5388
+static int32 arg_strlen 162,5931
+static arg_t *tmp_defn;184,6327
+static int32 cmp_name 186,6352
+static int32 *arg_sort 191,6499
+static int32 arg_str2val 207,6781
+static void arg_dump 243,7542
+int32 cmd_ln_parse 319,9386
+void cmd_ln_print_help 409,11863
+const void *cmd_ln_access 416,11994
+void cmd_ln_free 430,12300
+
+cmd_ln.h,561
+#define _LIBUTIL_CMD_LN_H_109,4829
+#define ARG_REQUIRED	114,4882
+#define ARG_INT32	117,4950
+#define ARG_FLOAT32	118,4970
+#define ARG_FLOAT64	119,4992
+#define ARG_STRING	120,5014
+#define REQARG_INT32	123,5080
+#define REQARG_FLOAT32	124,5128
+#define REQARG_FLOAT64	125,5180
+#define REQARG_STRING	126,5232
+typedef int32 argtype_t;argtype_t127,5282
+} arg_t;arg_t135,5550
+#define cmd_ln_str(cmd_ln_str157,6527
+#define cmd_ln_int32(cmd_ln_int32158,6582
+#define cmd_ln_float32(cmd_ln_float32159,6643
+#define cmd_ln_float64(cmd_ln_float64160,6708
+
+cmd_ln_args.h,0
+
+cmn.c,112
+static float32 *cmn_mean 115,5045
+static float32 *cmn_var 116,5078
+void cmn 119,5112
+void cmn_free 184,6924
+
+cmn.h,84
+#define _S3_CMN_H_108,4786
+#define CMN_WIN_HWM 128,5497
+#define CMN_WIN 129,5570
+
+cmn_prior.c,25
+void cmn_prior(101,4501
+
+cmn_prior.h,90
+#define _S3_CMN_PRIOR_H_105,4604
+#define CMN_WIN_HWM 116,4836
+#define CMN_WIN 117,4909
+
+cont_mgau.c,627
+#define MGAU_PARAM_VERSION	118,4975
+#define MGAU_MIXW_VERSION	119,5056
+#define MGAU_MEAN	120,5132
+#define MGAU_VAR	121,5153
+static int32 mgau_file_read(128,5286
+static int32 mgau_mixw_read(317,10994
+static void mgau_uninit_compact 429,14638
+static void mgau_var_floor 467,15521
+int32 mgau_var_nzvec_floor 487,15943
+static int32 mgau_precomp 522,16668
+mgau_model_t *mgau_init 549,17387
+int32 mgau_comp_eval 582,18369
+int32 mgau_eval 624,19128
+float64 mgau_eval_inner(710,21141
+  for (;i<veclen;813,24445
+    diff1 814,24470
+float64 mgau_eval_inner(844,25096
+int32 mgau_eval 906,26473
+void mgau_free 961,27560
+
+cont_mgau.c~,627
+#define MGAU_PARAM_VERSION	117,4976
+#define MGAU_MIXW_VERSION	118,5057
+#define MGAU_MEAN	119,5133
+#define MGAU_VAR	120,5154
+static int32 mgau_file_read(127,5287
+static int32 mgau_mixw_read(316,10995
+static void mgau_uninit_compact 428,14639
+static void mgau_var_floor 466,15522
+int32 mgau_var_nzvec_floor 486,15944
+static int32 mgau_precomp 521,16669
+mgau_model_t *mgau_init 548,17388
+int32 mgau_comp_eval 581,18370
+int32 mgau_eval 623,19129
+float64 mgau_eval_inner(709,21142
+  for (;i<veclen;812,24446
+    diff1 813,24471
+float64 mgau_eval_inner(843,25097
+int32 mgau_eval 905,26474
+void mgau_free 960,27561
+
+cont_mgau.h,526
+#define _S3_CONT_MGAU_H_112,4905
+} mgau_t;mgau_t156,6924
+} mgau_model_t;mgau_model_t172,7624
+#define mgau_n_mgau(mgau_n_mgau176,7662
+#define mgau_max_comp(mgau_max_comp177,7700
+#define mgau_veclen(mgau_veclen178,7741
+#define mgau_n_comp(mgau_n_comp179,7779
+#define mgau_mean(mgau_mean180,7826
+#define mgau_var(mgau_var181,7874
+#define mgau_mixw(mgau_mixw182,7921
+#define mgau_lrd(mgau_lrd183,7969
+#define mgau_frm_sen_eval(mgau_frm_sen_eval184,8016
+#define mgau_frm_gau_eval(mgau_frm_gau_eval185,8065
+
+corpus.c,310
+corpus_t *corpus_load_headid 122,5228
+static int32 sep_tailid 201,7249
+corpus_t *corpus_load_tailid 232,8008
+char *corpus_lookup 310,10051
+main 323,10266
+int32 ctl_read_entry 353,10879
+ptmr_t ctl_process 389,11663
+ptmr_t ctl_process_utt 439,12780
+void ctl_infile 487,13840
+void ctl_outfile 515,14506
+
+corpus.h,61
+#define _S3_CORPUS_H_120,5232
+} corpus_t;corpus_t136,5697
+
+dict.c,632
+#define DELIM	117,5139
+#define DEFAULT_NUM_PHONE	118,5202
+static s3cipid_t dict_ciphone_id 121,5246
+const char *dict_ciphone_str 143,5796
+s3wid_t dict_add_word 156,6146
+static int32 dict_read 211,7630
+static s3wid_t *dict_comp_head 263,8961
+static int32 dict_build_comp 289,9719
+dict_t *dict_init 345,11236
+s3wid_t dict_wordid 448,14316
+s3wid_t _dict_basewid 461,14514
+char *_dict_wordstr 470,14661
+s3wid_t _dict_nextalt 479,14814
+int32 dict_filler_word 488,14968
+s3wid_t dict_wids2compwid 502,15254
+int32 dict_word2basestr 528,15833
+void dict_free 550,16333
+main 587,17185
+#define _DICT_MEM_LEAK_TEST_ 602,17664
+
+dict.h,683
+#define _S3_DICT_H_114,5093
+} dictword_t;dictword_t133,5834
+} dict_t;dict_t152,7012
+#define dict_size(dict_size198,8791
+#define dict_basewid(dict_basewid199,8827
+#define dict_wordstr(dict_wordstr200,8876
+#define dict_nextalt(dict_nextalt201,8922
+#define dict_pronlen(dict_pronlen202,8967
+#define dict_pron(dict_pron203,9016
+#define dict_filler_start(dict_filler_start204,9067
+#define dict_filler_end(dict_filler_end205,9116
+#define dict_startwid(dict_startwid206,9161
+#define dict_finishwid(dict_finishwid207,9202
+#define dict_silwid(dict_silwid208,9245
+#define dict_first_phone(dict_first_phone209,9283
+#define dict_last_phone(dict_last_phone210,9339
+
+dict2pid.c,350
+static glist_t ldiph_comsseq 116,4924
+static glist_t rdiph_comsseq 143,5617
+static glist_t single_comsseq 170,6303
+static glist_t single_lc_comsseq 199,7080
+static s3ssid_t ssidlist2comsseq 224,7654
+dict2pid_t *dict2pid_build 292,9909
+void dict2pid_comsenscr 480,15719
+void dict2pid_comsseq2sen_active 503,16143
+void dict2pid_dump 524,16595
+
+dict2pid.h,235
+#define _S3_DICT2PID_H_108,4692
+} dict2pid_t;dict2pid_t167,8039
+#define dict2pid_internal(dict2pid_internal170,8106
+#define dict2pid_n_comstate(dict2pid_n_comstate171,8161
+#define dict2pid_n_comsseq(dict2pid_n_comsseq172,8211
+
+err.c,236
+_E__pr_header(123,5079
+_E__pr_info_header(130,5237
+_E__pr_warn(139,5464
+_E__pr_info(151,5641
+void _E__die_error(162,5813
+void _E__fatal_sys_error(178,6041
+void _E__sys_error(196,6314
+void _E__abort_error(212,6559
+main(226,6767
+
+err.h,259
+#define _LIBUTIL_ERR_H_103,4559
+#define E_ABORT 128,5200
+#define E_FATAL 132,5336
+#define E_FATAL_SYSTEM	135,5471
+#define E_WARN_SYSTEM	138,5606
+#define E_ERROR_SYSTEM	141,5734
+#define E_INFO	145,5899
+#define E_WARN	147,5976
+#define E_ERROR	149,6051
+
+feat.c,662
+#define FEAT_VERSION	164,6946
+#define N_FEAT	166,6974
+#define FEAT_DCEP_WIN	168,6994
+int32 feat_readfile 170,7020
+int32 feat_writefile 277,9842
+int32 feat_s2mfc_read 318,10889
+static int32 feat_stream_len_sum 418,13616
+float32 **feat_vector_alloc 429,13792
+float32 ***feat_array_alloc 454,14381
+static void feat_s2_4x_cep2feat 482,15066
+static void feat_s3_1x39_cep2feat 545,16697
+static void feat_s3_cep 600,17968
+static void feat_s3_cep_dcep 614,18415
+void feat_1s_c_d_dd_cep2feat 641,19127
+feat_t *feat_init 688,20267
+void feat_print 824,24469
+int32 feat_s2mfc2feat 844,24851
+int32	feat_s2mfc2feat_block(955,28389
+void feat_free 1115,33139
+
+feat.h,413
+#define _S3_FEAT_H_108,4702
+#define LIVEBUFBLOCKSIZE 114,4747
+typedef struct feat_s feat_s123,5085
+} feat_t;feat_t141,6273
+#define feat_name(feat_name144,6304
+#define feat_cepsize(feat_cepsize145,6338
+#define feat_cepsize_used(feat_cepsize_used146,6378
+#define feat_n_stream(feat_n_stream147,6427
+#define feat_stream_len(feat_stream_len148,6468
+#define feat_window_size(feat_window_size149,6518
+
+filename.c,58
+void path2basename 113,4683
+void strip_fileext 124,4909
+
+filename.h,38
+#define _LIBUTIL_FILENAME_H_105,4579
+
+fillpen.c,86
+fillpen_t *fillpen_init 119,5181
+int32 fillpen 194,7887
+void fillpen_free 202,8094
+
+fillpen.h,64
+#define _S3_FILLPEN_H_106,4616
+} fillpen_t;fillpen_t120,5015
+
+glist.c,663
+glist_t glist_add_ptr 116,4835
+glist_t glist_add_int32 127,5064
+glist_t glist_add_uint32 138,5297
+glist_t glist_add_float32 149,5533
+glist_t glist_add_float64 160,5772
+int32 glist_chkdup_ptr 171,6011
+int32 glist_chkdup_int32 183,6184
+int32 glist_chkdup_uint32 195,6361
+int32 glist_chkdup_float32 207,6541
+int32 glist_chkdup_float64 219,6724
+void glist_apply_ptr 231,6907
+void glist_apply_int32 240,7050
+void glist_apply_uint32 249,7196
+void glist_apply_float32 258,7345
+void glist_apply_float64 267,7497
+void glist_free 276,7649
+void glist_myfree 288,7789
+int32 glist_count 301,7990
+gnode_t *glist_tail 311,8124
+glist_t glist_reverse 323,8274
+
+glist.h,403
+#define _LIBUTIL_GLIST_H_119,5111
+typedef struct gnode_s gnode_s127,5215
+} gnode_t;gnode_t130,5333
+typedef gnode_t *glist_t;glist_t131,5344
+#define gnode_ptr(gnode_ptr135,5440
+#define gnode_int32(gnode_int32136,5478
+#define gnode_uint32(gnode_uint32137,5520
+#define gnode_float32(gnode_float32138,5564
+#define gnode_float64(gnode_float64139,5609
+#define gnode_next(gnode_next140,5654
+
+hash.c,504
+static void prime_sieve 127,5151
+static int32 prime[151,5673
+static int32 prime_size 160,6023
+hash_table_t *hash_new 173,6268
+static uint32 key2hash 191,6780
+static char *makekey 223,7283
+static int32 keycmp_nocase 240,7615
+static int32 keycmp_case 260,7941
+static int32 lookup 283,8396
+int32 hash_lookup 307,8919
+int32 hash_lookup_bkey 319,9131
+static int32 enter 332,9401
+int32 hash_enter 362,10063
+int32 hash_enter_bkey 373,10267
+glist_t hash_tolist 386,10534
+void hash_free 415,10956
+
+hash.h,418
+#define _LIBUTIL_HASH_H_123,5283
+typedef struct hash_entry_s hash_entry_s139,5745
+} hash_entry_t;hash_entry_t147,6191
+} hash_table_t;hash_table_t155,6555
+#define hash_entry_val(hash_entry_val159,6593
+#define hash_entry_key(hash_entry_key160,6630
+#define hash_entry_len(hash_entry_len161,6667
+#define hash_table_size(hash_table_size162,6704
+#define HASH_CASE_YES	173,7054
+#define HASH_CASE_NO	174,7079
+
+heap.c,323
+typedef struct heap_s heap_s117,4858
+} heapnode_t;heapnode_t124,5255
+static void heap_dump 128,5277
+heap_t heap_new 144,5529
+static heapnode_t *subheap_insert 155,5688
+int32 heap_insert 193,6489
+static heapnode_t *subheap_pop 205,6666
+int32 heap_pop 241,7336
+int32 heap_top 260,7587
+int32 heap_destroy 277,7806
+
+heap.h,72
+#define _LIBUTIL_HEAP_H_106,4615
+typedef void *heap_t;heap_t112,4667
+
+hmm.c,150
+void hmm_dump 129,5673
+void hmm_clear 161,6485
+int32 hmm_vit_eval_5st 178,6814
+int32 hmm_vit_eval_3st 286,9403
+int32 hmm_dump_vit_eval 394,12147
+
+hmm.h,88
+#define _S3_HMM_H_114,5056
+} hmm_state_t;hmm_state_t159,6662
+} hmm_t;hmm_t167,7023
+
+hyp.h,52
+#define _S3_HYP_H_105,4556
+} hyp_t;hyp_t118,5056
+
+io.c,262
+FILE *fopen_comp 122,4901
+void fclose_comp 194,6565
+FILE *fopen_compchk 207,6710
+#define FREAD_RETRY_COUNT	266,7975
+int32 fread_retry(268,8005
+#define STAT_RETRY_COUNT	310,8780
+int32 stat_retry 312,8809
+int32 stat_mtime 332,9140
+FILE *_myfopen 343,9297
+
+io.h,66
+#define _LIBUTIL_IO_H_111,4786
+#define myfopen(myfopen148,5946
+
+kb.c,86
+void kb_init 115,5050
+void kb_lextree_active_swap 332,12529
+void kb_free 344,12857
+
+kb.h,49
+#define _S3_KB_H_108,4714
+} kb_t;kb_t166,6663
+
+kbcore.c,59
+kbcore_t *kbcore_init 114,4869
+void kbcore_free 252,9263
+
+kbcore.h,499
+#define _S3_KBCORE_H_111,4850
+} kbcore_t;kbcore_t142,5348
+#define kbcore_fcb(kbcore_fcb189,7423
+#define kbcore_mdef(kbcore_mdef190,7457
+#define kbcore_dict(kbcore_dict191,7493
+#define kbcore_dict2pid(kbcore_dict2pid192,7529
+#define kbcore_lm(kbcore_lm193,7572
+#define kbcore_fillpen(kbcore_fillpen194,7604
+#define kbcore_dict2lmwid(kbcore_dict2lmwid195,7645
+#define kbcore_mgau(kbcore_mgau196,7697
+#define kbcore_svq(kbcore_svq197,7733
+#define kbcore_tmat(kbcore_tmat198,7767
+
+lextree.c,553
+static lextree_node_t *lextree_node_alloc 123,5237
+lextree_t *lextree_build 144,5774
+static int32 lextree_subtree_free 396,13839
+void lextree_free 427,14724
+void lextree_ci_active 471,15898
+void lextree_ssid_active 485,16151
+void lextree_utt_end 502,16459
+static void lextree_node_print 522,16842
+static void lextree_subtree_print 531,17117
+void lextree_dump 547,17503
+void lextree_enter 570,18071
+void lextree_active_swap 615,19074
+int32 lextree_hmm_eval 627,19334
+void lextree_hmm_histbin 723,21565
+void lextree_hmm_propagate 763,22453
+
+lextree.h,880
+#define _S3_LEXTREE_H_112,4850
+} lextree_node_t;lextree_node_t157,7124
+#define lextree_node_wid(lextree_node_wid160,7192
+#define lextree_node_prob(lextree_node_prob161,7232
+#define lextree_node_ssid(lextree_node_ssid162,7274
+#define lextree_node_composite(lextree_node_composite163,7316
+#define lextree_node_frame(lextree_node_frame164,7367
+} lextree_lcroot_t;lextree_lcroot_t174,7680
+} lextree_t;lextree_t195,8774
+#define lextree_type(lextree_type198,8839
+#define lextree_root(lextree_root199,8877
+#define lextree_lcroot(lextree_lcroot200,8915
+#define lextree_n_lc(lextree_n_lc201,8956
+#define lextree_n_node(lextree_n_node202,8994
+#define lextree_active(lextree_active203,9035
+#define lextree_next_active(lextree_next_active204,9076
+#define lextree_n_active(lextree_n_active205,9127
+#define lextree_n_next_active(lextree_n_next_active206,9172
+
+libutil.h,204
+#define _LIBUTIL_LIBUTIL_H_108,4694
+#define SLEEP_SEC(SLEEP_SEC138,5179
+#define SLEEP_SEC(SLEEP_SEC140,5256
+#define TRUE	144,5362
+#define FALSE	145,5377
+#define M_PI	149,5414
+#define PI	151,5494
+
+live.c,566
+#define START_BLOCK 115,4991
+static fe_t  *fe;117,5014
+static kb_t  *kb;119,5033
+static kbcore_t *kbcore;120,5051
+static FILE  *hmmdumpfp;121,5076
+static int32 maxwpf;122,5101
+static int32 maxhistpf;123,5122
+static int32 maxhmmpf;124,5146
+static int32 ptranskip;125,5169
+static partialhyp_t *parthyp 127,5194
+static float32 *dummyframe;128,5231
+barrier_t *score_barrier;134,5380
+void live_initialize_decoder(139,5487
+int32 live_free_memory 192,7347
+int32 live_get_partialhyp(216,8224
+int32 sample_blk 277,10086
+int32 live_utt_decode_block 280,10116
+
+live.h,38
+} partialhyp_t;partialhyp_t103,4395
+
+lm.c,887
+#define MIN_PROB_F	126,5424
+static char *darpa_hdr 129,5462
+static int LM_IN_MEMORY 130,5507
+int32 lm_delete 134,5596
+static void lm_uw 194,6832
+static void lm2logs3 213,7338
+void lm_set_param 236,7894
+static int32 lm_fread_int32 272,8760
+static lm_t *lm_read_dump 288,9113
+lm_t *lm_read 554,17526
+void lm_cache_reset 592,18563
+void lm_cache_stats_dump 649,19896
+int32 lm_ug_score 668,20480
+int32 lm_uglist 679,20694
+int32 lm_ug_wordprob 686,20785
+static void load_bg 712,21194
+#define BINARY_SEARCH_THRESH	745,22170
+static int32 find_bg 748,22255
+int32 lm_bglist 771,22701
+int32 lm_bg_wordprob 796,23180
+int32 lm_bg_score 823,23768
+static void load_tg 865,24573
+static int32 find_tg 948,26830
+int32 lm_tglist 969,27177
+int32 lm_tg_score 1008,28055
+s3lmwid_t lm_wid 1078,29923
+void lm_free 1089,30120
+static int32 sentence_lmscore 1110,30589
+main 1148,31485
+
+lm.h,956
+#define _S3_LM_H_114,5010
+} lmlog_t;lmlog_t125,5188
+} ug_t;ug_t135,5570
+} bg_t;bg_t142,5766
+} tg_t;tg_t147,5864
+} membg_t;membg_t157,6149
+typedef struct tginfo_s tginfo_s167,6673
+} tginfo_t;tginfo_t175,7057
+} lm_tgcache_entry_t;lm_tgcache_entry_t184,7293
+#define LOG2_BG_SEG_SZ 201,8122
+#define BG_SEG_SZ 202,8149
+#define LM_TGCACHE_SIZE	204,8198
+typedef struct lm_s lm_s212,8402
+} lm_t;lm_t268,10740
+#define lm_lmwid2dictwid(lm_lmwid2dictwid271,10798
+#define lm_n_ug(lm_n_ug272,10851
+#define lm_n_bg(lm_n_bg273,10885
+#define lm_n_tg(lm_n_tg274,10919
+#define lm_wordstr(lm_wordstr275,10953
+#define lm_startwid(lm_startwid276,10997
+#define lm_finishwid(lm_finishwid277,11040
+#define lm_access_type(lm_access_type278,11084
+} wordprob_t;wordprob_t285,11308
+#define LM_TGPROB(LM_TGPROB381,14573
+#define LM_BGPROB(LM_BGPROB382,14635
+#define LM_UGPROB(LM_UGPROB383,14697
+#define LM_RAWSCORE(LM_RAWSCORE384,14743
+
+logs3.c,564
+static int USE_LOG3_ADD_TABLE 115,4983
+static float64 F 116,5019
+static float64 B,137,6051
+static float64 B, logB,137,6051
+static float64 B, logB, invlogB,137,6051
+static float64 B, logB, invlogB, invlog10B;137,6051
+static uint16 *add_tbl 138,6095
+static int32 add_tbl_size;139,6153
+int32 logs3_init 142,6182
+int32 logs3_add 218,7662
+int32 logs3 248,8463
+int32 log_to_logs3 262,8717
+float64 log_to_logs3_factor 271,8864
+float64 logs3_to_log 277,8927
+float64 logs3_to_p 286,9074
+int32 log10_to_logs3 292,9156
+void logs_free 300,9310
+main 308,9400
+
+logs3.h,30
+#define _S3_LOGS3_H_108,4691
+
+main_live_pretend.c,48
+#define MAXSAMPLES 106,4857
+int main 108,4886
+
+main_live_pretend.c~,48
+#define MAXSAMPLES 106,4857
+int main 108,4886
+
+mdef.c,849
+#define MODEL_DEF_VERSION	135,5698
+void mdef_dump 138,5732
+int32 mdef_hmm_cmp 169,6521
+static void ciphone_add 185,6802
+static ph_lc_t *find_ph_lc 195,7114
+static ph_rc_t *find_ph_rc 204,7293
+static void triphone_add 213,7472
+s3cipid_t mdef_ciphone_id 254,8647
+const char *mdef_ciphone_str 267,8860
+int32 mdef_phone_str 276,9028
+s3pid_t mdef_phone_id 298,9544
+s3pid_t mdef_phone_id_nearest 329,10442
+int32 mdef_phone_components 394,12138
+int32 mdef_is_ciphone 413,12474
+static void parse_tmat_senmap 423,12708
+static void parse_base_line 462,14026
+static void parse_tri_line 509,15412
+static void sseq_compress 572,17441
+static int32 noncomment_line(618,18618
+mdef_t *mdef_init 631,18887
+void mdef_sseq2sen_active 841,26218
+void mdef_free_recursive_lc 866,26848
+void mdef_free_recursive_rc 879,27066
+void mdef_free 894,27336
+
+mdef.h,1021
+#define _S3_MDEF_H_116,5084
+    WORD_POSN_BEGIN 124,5165
+    WORD_POSN_END 125,5220
+    WORD_POSN_SINGLE 126,5271
+    WORD_POSN_INTERNAL 127,5340
+    WORD_POSN_UNDEFINED 128,5397
+} word_posn_t;word_posn_t129,5481
+#define N_WORD_POSN	130,5496
+#define WPOS_NAME	131,5572
+} ciphone_t;ciphone_t139,5843
+} phone_t;phone_t152,6343
+typedef struct ph_rc_s ph_rc_s159,6559
+} ph_rc_t;ph_rc_t163,6780
+typedef struct ph_lc_s ph_lc_s165,6792
+} ph_lc_t;ph_lc_t169,7007
+} mdef_t;mdef_t201,8496
+#define mdef_is_fillerphone(mdef_is_fillerphone204,8556
+#define mdef_n_ciphone(mdef_n_ciphone205,8614
+#define mdef_n_phone(mdef_n_phone206,8658
+#define mdef_n_sseq(mdef_n_sseq207,8699
+#define mdef_n_emit_state(mdef_n_emit_state208,8738
+#define mdef_n_sen(mdef_n_sen209,8788
+#define mdef_n_tmat(mdef_n_tmat210,8825
+#define mdef_pid2ssid(mdef_pid2ssid211,8864
+#define mdef_pid2tmatid(mdef_pid2tmatid212,8913
+#define mdef_silphone(mdef_silphone213,8964
+#define mdef_sen2cimap(mdef_sen2cimap214,9001
+
+new_fe.c,138
+fe_t *fe_init(137,5831
+int32 fe_start_utt(193,7699
+int32 fe_process_utt(211,8329
+int32 fe_end_utt(328,12932
+int32 fe_close(387,14848
+
+new_fe.h,1153
+#define _NEW_FE_H_88,4193
+} param_t;param_t118,4737
+}melfb_t;melfb_t132,5002
+} fe_t;fe_t152,5393
+#define MEL_SCALE 156,5404
+#define LOG_LINEAR 157,5424
+#define DEFAULT_SAMPLING_RATE 160,5467
+#define DEFAULT_FRAME_RATE 161,5505
+#define DEFAULT_FRAME_SHIFT 162,5536
+#define DEFAULT_WINDOW_LENGTH 163,5568
+#define DEFAULT_FFT_SIZE 164,5607
+#define DEFAULT_FB_TYPE 165,5636
+#define DEFAULT_NUM_CEPSTRA 166,5670
+#define DEFAULT_NUM_FILTERS 167,5701
+#define DEFAULT_LOWER_FILT_FREQ 168,5732
+#define DEFAULT_UPPER_FILT_FREQ 169,5774
+#define DEFAULT_PRE_EMPHASIS_ALPHA 170,5816
+#define DEFAULT_START_FLAG 171,5856
+#define BB_SAMPLING_RATE 173,5886
+#define DEFAULT_BB_FFT_SIZE 174,5917
+#define DEFAULT_BB_FRAME_SHIFT 175,5949
+#define DEFAULT_BB_NUM_FILTERS 176,5984
+#define DEFAULT_BB_LOWER_FILT_FREQ 177,6018
+#define DEFAULT_BB_UPPER_FILT_FREQ 178,6063
+#define NB_SAMPLING_RATE 180,6109
+#define DEFAULT_NB_FFT_SIZE 181,6139
+#define DEFAULT_NB_FRAME_SHIFT 182,6181
+#define DEFAULT_NB_NUM_FILTERS 183,6215
+#define DEFAULT_NB_LOWER_FILT_FREQ 184,6249
+#define DEFAULT_NB_UPPER_FILT_FREQ 185,6288
+#define DEFAULT_BLOCKSIZE 188,6330
+
+new_fe_sp.c,565
+int32 fe_build_melfilters(107,4756
+int32 fe_compute_melcosine(182,7195
+float fe_mel(208,7788
+float fe_melinv(213,7869
+void fe_pre_emphasis(219,7960
+void fe_short_to_double(231,8205
+void fe_create_hamming(240,8341
+void fe_hamming_window(254,8559
+void fe_frame_to_fea(267,8739
+void fe_spec_magnitude(297,9405
+void fe_mel_spec(348,10429
+void fe_mel_cep(368,10906
+int32 fe_fft(400,11533
+char **fe_create_2d(508,13955
+void fe_free_2d(535,14455
+void fe_parse_general_params(544,14546
+void fe_parse_melfb_params(584,15454
+void fe_print_current(651,17550
+
+new_fe_sp.h,160
+#define int32 87,4174
+#define M_PI	90,4206
+#define FORWARD_FFT 93,4263
+#define INVERSE_FFT 94,4285
+typedef struct { double r, i; } complex;complex96,4309
+
+parse_args_file.c,126
+static arg_t arg[105,4556
+static char **liveargs 349,11638
+void  parse_args_file(351,11718
+void parse_args_free(404,13214
+
+prim_type.h,976
+#define _LIBUTIL_PRIM_TYPE_H_111,4785
+typedef int		int32;int32114,4817
+typedef short		int16;int16115,4837
+typedef char		int8;int8116,4859
+typedef unsigned int	uint32;uint32117,4879
+typedef unsigned short	uint16;uint16118,4908
+typedef unsigned char	uint8;uint8119,4939
+typedef float		float32;float32120,4968
+typedef double		float64;float64121,4992
+typedef union anytype_s anytype_s123,5018
+} anytype_t;anytype_t129,5180
+#define MAX_INT32	133,5218
+#define MAX_INT16	134,5258
+#define MAX_INT8	135,5298
+#define MAX_NEG_INT32	137,5338
+#define MAX_NEG_INT16	138,5382
+#define MAX_NEG_INT8	139,5426
+#define MAX_UINT32	141,5470
+#define MAX_UINT16	142,5512
+#define MAX_UINT8	143,5554
+#define MAX_POS_FLOAT32	146,5678
+#define MIN_POS_FLOAT32	147,5712
+#define MAX_POS_FLOAT64	148,5762
+#define MIN_POS_FLOAT64	149,5796
+#define MAX_NEG_FLOAT32	152,5870
+#define MIN_NEG_FLOAT32	153,5926
+#define MAX_NEG_FLOAT64	154,5982
+#define MIN_NEG_FLOAT64	155,6038
+
+profile.c,431
+void pctr_reset 129,4989
+void pctr_reset_all 135,5045
+void pctr_print_all 142,5133
+int32 host_pclk 154,5346
+#define TM_LOWSCALE	204,6541
+#define TM_HIGHSCALE	205,6566
+static float64 make_sec 207,6618
+static float64 make_sec 219,6799
+void ptmr_start 227,6905
+void ptmr_stop 256,7611
+void ptmr_reset 294,8544
+void ptmr_init 301,8625
+void ptmr_reset_all 310,8759
+void ptmr_print_all 317,8843
+int32 host_endian 327,9039
+
+profile.h,89
+#define _LIBUTIL_PROFILE_H_108,4710
+} pctr_t;pctr_t122,5098
+} ptmr_t;ptmr_t143,5885
+
+s3types.h,2192
+#define _S3_S3TYPES_H_113,4939
+typedef int8		s3cipid_t;s3cipid_t126,5239
+#define BAD_S3CIPID	127,5282
+#define NOT_S3CIPID(NOT_S3CIPID128,5319
+#define IS_S3CIPID(IS_S3CIPID129,5350
+#define MAX_S3CIPID	130,5381
+typedef int32		s3pid_t;s3pid_t132,5406
+#define BAD_S3PID	133,5467
+#define NOT_S3PID(NOT_S3PID134,5500
+#define IS_S3PID(IS_S3PID135,5529
+#define MAX_S3PID	136,5558
+typedef s3pid_t		s3ssid_t;s3ssid_t138,5597
+#define BAD_S3SSID	139,5671
+#define NOT_S3SSID(NOT_S3SSID140,5706
+#define IS_S3SSID(IS_S3SSID141,5736
+#define MAX_S3SSID	142,5766
+typedef int32		s3tmatid_t;s3tmatid_t144,5806
+#define BAD_S3TMATID	145,5890
+#define NOT_S3TMATID(NOT_S3TMATID146,5929
+#define IS_S3TMATID(IS_S3TMATID147,5961
+#define MAX_S3TMATID	148,5993
+typedef int32		s3wid_t;s3wid_t150,6035
+#define BAD_S3WID	151,6084
+#define NOT_S3WID(NOT_S3WID152,6117
+#define IS_S3WID(IS_S3WID153,6146
+#define MAX_S3WID	154,6175
+typedef uint16		s3lmwid_t;s3lmwid_t156,6214
+#define BAD_S3LMWID	157,6288
+#define NOT_S3LMWID(NOT_S3LMWID158,6329
+#define IS_S3LMWID(IS_S3LMWID159,6371
+#define MAX_S3LMWID	160,6412
+typedef int32		s3latid_t;s3latid_t162,6450
+#define BAD_S3LATID	163,6499
+#define NOT_S3LATID(NOT_S3LATID164,6536
+#define IS_S3LATID(IS_S3LATID165,6567
+#define MAX_S3LATID	166,6598
+typedef int16   	s3frmid_t;s3frmid_t168,6639
+#define BAD_S3FRMID	169,6707
+#define NOT_S3FRMID(NOT_S3FRMID170,6744
+#define IS_S3FRMID(IS_S3FRMID171,6775
+#define MAX_S3FRMID	172,6806
+typedef int16   	s3senid_t;s3senid_t174,6843
+#define BAD_S3SENID	175,6887
+#define NOT_S3SENID(NOT_S3SENID176,6924
+#define IS_S3SENID(IS_S3SENID177,6955
+#define MAX_S3SENID	178,6986
+typedef int16   	s3mgauid_t;s3mgauid_t180,7023
+#define BAD_S3MGAUID	181,7087
+#define NOT_S3MGAUID(NOT_S3MGAUID182,7126
+#define IS_S3MGAUID(IS_S3MGAUID183,7158
+#define MAX_S3MGAUID	184,7190
+#define S3_START_WORD	187,7233
+#define S3_FINISH_WORD	188,7262
+#define S3_SILENCE_WORD	189,7293
+#define S3_UNKNOWN_WORD	190,7326
+#define S3_SILENCE_CIPHONE	191,7359
+#define S3_LOGPROB_ZERO	193,7393
+#define S3_MAX_FRAMES	195,7609
+#define __declspec(__declspec198,7727
+#define align(align199,7750
+
+scpt,70
+sed -e '/include/s/<libutil\/libutil.h>/"libutil.h"/g' $1 > blah 1,0
+
+str2words.c,26
+int32 str2words 113,4680
+
+str2words.h,39
+#define _LIBUTIL_STR2WORDS_H_105,4584
+
+subvq.c,473
+int VQ_EVAL 147,6383
+static void subvq_maha_precomp 155,6630
+static void subvq_map_compact 177,7108
+static void subvq_map_linearize 233,9033
+subvq_t *subvq_init 246,9324
+static int32 subvq_mgau_shortlist 429,15288
+void subvq_subvec_eval_logs3 510,17246
+void subvq_gautbl_eval_logs3 525,17692
+int32 sema 552,18361
+void thrd_subvq_gautbl_eval_logs3 557,18448
+void thrd_subvq_gautbl_eval_logs3 666,21826
+int32 subvq_frame_eval 692,22420
+void subvq_free 745,23665
+
+subvq.h,58
+#define _S3_SUBVQ_H_124,5415
+} subvq_t;subvq_t163,7187
+
+threading.c,1241
+pthread_mutex_t update_lock 59,2530
+int thread_arrived 61,2588
+int wk_idx 62,2612
+thread_args_t thread_data_array[64,2629
+pthread_t thread[66,2695
+int32 best_array[69,2736
+int32 wbest_array[70,2767
+int32 ns_array[71,2799
+int32 ng_array[72,2828
+int32 *he_best_array[74,2858
+int32 *he_wbest_array[75,2893
+lextree_node_t ***next_active_array[77,2930
+int32 *next_active_size[78,2980
+int32 *private_n[79,3018
+lextree_node_t **double_next_active(83,3071
+void threading_support_init(92,3408
+static int32 thrd_subvq_mgau_shortlist 113,4108
+void *frame_eval_thrd_work(195,6090
+void dict2pid_comsenscr_thrd_work(313,8871
+void lextree_hmm_eval_thrd_work(342,9514
+int32 ln_lock(392,10729
+int32 ln_lock_child(418,11118
+void ln_unlock(442,11479
+void lextree_hmm_ppg_thrd_work(455,11678
+void ThreadJoin(567,14698
+void lextree_ssid_active_thrd_work 581,14966
+void sseq2sen_active_thrd_work(601,15396
+void sen_active_thrd_work(653,16864
+void *scoring_thrd_work(811,20877
+void thrd_sen_active_phase(852,21899
+void thrd_scoring_phase(889,22691
+void new_lextree_hmm_eval_thrd_work(961,24556
+void new_thrd_lextree_hmm_eval(1005,25899
+void new_lextree_hmm_ppg_thrd_work(1062,27397
+void new_thrd_lextree_hmm_propagate(1100,28468
+
+threading.h,173
+} sen_active_args_t;sen_active_args_t64,2601
+} scoring_args_t;scoring_args_t76,2786
+} searching_args_t;searching_args_t90,2981
+} thread_args_t;thread_args_t108,3390
+
+tmat.c,196
+#define TMAT_PARAM_VERSION	119,5018
+void tmat_dump 122,5054
+int32 tmat_chk_uppertri 143,5585
+int32 tmat_chk_1skip 159,5933
+tmat_t *tmat_init 174,6228
+void tmat_free 280,9741
+main 292,10000
+
+tmat.h,55
+#define _S3_TMAT_H_114,4956
+} tmat_t;tmat_t131,5441
+
+unlimit.c,23
+void unlimit 115,4769
+
+unlimit.h,37
+#define _LIBUTIL_UNLIMIT_H_105,4606
+
+utt.c,336
+void matchseg_write 134,5517
+void utt_begin 164,6346
+void utt_end 195,7116
+void utt_word_trans 368,12558
+void utt_decode 437,14398
+sen_active_args_t sen_active_args;626,20526
+scoring_args_t scoring_args;627,20561
+searching_args_t searching_args;628,20590
+void utt_decode_block 639,20961
+void single_utt_decode_block 921,29627
+
+utt.c~,336
+void matchseg_write 134,5517
+void utt_begin 164,6346
+void utt_end 195,7116
+void utt_word_trans 368,12558
+void utt_decode 437,14398
+sen_active_args_t sen_active_args;626,20528
+scoring_args_t scoring_args;627,20563
+searching_args_t searching_args;628,20592
+void utt_decode_block 639,20963
+void single_utt_decode_block 921,29629
+
+utt.h,51
+#define _UTT_H_88,4190
+#define MAXHYPLEN 93,4245
+
+vector.c,975
+float64 vector_sum_norm 122,5158
+void vector_floor 143,5606
+void vector_nz_floor 153,5760
+void vector_print(163,5938
+int32 vector_is_zero 174,6116
+int32 vector_maxcomp_int32 183,6301
+int32 vector_mincomp_int32 196,6481
+int32 vector_maxcomp_float32 209,6661
+int32 vector_mincomp_float32 222,6845
+void vector_accum 235,7029
+int32 vector_cmp 244,7160
+int32 vector_mean 259,7367
+float64 vector_dist_eucl 282,7789
+float64 vector_maha_precomp 295,7994
+float64 vector_dist_maha 310,8323
+int32 vector_vqlabel 326,8622
+float64 vector_vqgen 351,9078
+float64 vector_pdf_entropy 455,11994
+float64 vector_pdf_cross_entropy 472,12245
+void vector_gautbl_alloc 487,12501
+void vector_gautbl_free 506,13241
+void vector_gautbl_var_floor 514,13419
+void vector_gautbl_maha_precomp 523,13608
+void vector_gautbl_eval_logs3 537,13842
+float64 vector_gautbl_eval_logs3_inner(602,15235
+float64 vector_gautbl_eval_logs3_inner(667,16933
+void vector_gautbl_eval_logs3 751,18830
+
+vector.h,215
+#define _S3_VECTOR_H_112,4940
+typedef float32 *vector_t;vector_t117,4986
+} arraysize_t;arraysize_t124,5130
+} point_t;point_t129,5241
+} fpoint_t;fpoint_t134,5352
+} vector_gautbl_t;vector_gautbl_t298,12373
+
+vithist.c,833
+vithist_t *vithist_init 117,4978
+static vithist_entry_t *vithist_entry_alloc 148,5865
+int32 vithist_utt_begin 173,6469
+static int32 vh_lmstate_find 210,7283
+static void vithist_lmstate_enter 237,7877
+vithist_entry_t *vithist_id2entry 265,8640
+static void vithist_enter 274,8814
+void vithist_rescore 302,9597
+static void vithist_frame_gc 367,11234
+void vithist_prune 410,12124
+static void vithist_lmstate_reset 472,13684
+void vithist_frame_windup 498,14233
+int32 vithist_utt_end 514,14586
+int32 vithist_partialutt_end 595,16723
+void vithist_utt_reset 645,17860
+static void vithist_lmstate_subtree_dump 663,18176
+static void vithist_lmstate_dump 685,18735
+void vithist_dump 718,19515
+glist_t vithist_backtrace 779,21122
+} dagnode_t;dagnode_t816,21789
+void vithist_dag_write 822,21861
+void vithist_free 999,27008
+
+vithist.h,1176
+#define _S3_VITHIST_H_114,4920
+} vh_lmstate_t;vh_lmstate_t132,5409
+} vithist_entry_t;vithist_entry_t148,6031
+#define vithist_entry_wid(vithist_entry_wid150,6051
+#define vithist_entry_sf(vithist_entry_sf151,6093
+#define vithist_entry_ef(vithist_entry_ef152,6133
+#define vithist_entry_ascr(vithist_entry_ascr153,6173
+#define vithist_entry_lscr(vithist_entry_lscr154,6217
+#define vithist_entry_score(vithist_entry_score155,6261
+#define vithist_entry_pred(vithist_entry_pred156,6307
+#define vithist_entry_valid(vithist_entry_valid157,6351
+} vh_lms2vh_t;vh_lms2vh_t176,7396
+} vithist_t;vithist_t202,8640
+#define VITHIST_BLKSIZE	205,8655
+#define VITHIST_MAXBLKS	206,8702
+#define VITHIST_ID2BLK(VITHIST_ID2BLK207,8731
+#define VITHIST_ID2BLKOFFSET(VITHIST_ID2BLKOFFSET208,8769
+#define vithist_n_entry(vithist_n_entry211,8883
+#define vithist_bestscore(vithist_bestscore212,8928
+#define vithist_bestvh(vithist_bestvh213,8977
+#define vithist_lms2vh_root(vithist_lms2vh_root214,9020
+#define vithist_lwidlist(vithist_lwidlist215,9077
+#define vithist_first_entry(vithist_first_entry216,9124
+#define vithist_last_entry(vithist_last_entry217,9181
+
+wid.c,70
+s3lmwid_t *wid_dict_lm_map 107,4577
+int32 wid_wordprob2alt 149,5552
+
+wid.h,28
+#define _S3_WID_H_104,4576
